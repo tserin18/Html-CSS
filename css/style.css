@@ -31,6 +31,7 @@ color:cadetblue;
 @media (max-width: 769px) {
     h2.remove-overlap{
       margin-top: 20px;
+      margin-left: 0px;
     }
   }
 

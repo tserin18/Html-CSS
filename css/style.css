@@ -1,0 +1,29 @@
+nav{
+  margin-bottom: 30px;
+}
+
+li.nav-item:hover{
+  background-color: cadetblue;
+}
+
+/* heading color attributes */
+h2.home {
+  display:block;
+  color: white; 
+  background-color: cadetblue;
+  margin-left:60px;  
+  padding: 0 10px 0px 10px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h1,h2{
+color:cadetblue;
+}
+
+.footer{
+  text-align: center;
+  padding-top:100px;
+}

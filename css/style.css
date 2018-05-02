@@ -1,3 +1,6 @@
+nav{
+  margin-bottom: 30px;
+}
 
 li.nav-item:hover{
   background-color: cadetblue;
@@ -9,7 +12,6 @@ h2.home {
   color: white; 
   background-color: cadetblue;
   margin-left:60px;  
-  margin-top: 0px;
   padding: 0 10px 0px 10px;
 }
 
@@ -18,11 +20,18 @@ a:hover{
 }
 
 h2{
-  color:cadetblue;
-  margin-top: 30px;
+color:cadetblue;
 }
 
 .footer{
   text-align: center;
   padding-top:100px;
 }
+
+@media (max-width: 769px) {
+    h2.remove-overlap{
+      margin-top: 20px;
+    }
+  }
+
+  
